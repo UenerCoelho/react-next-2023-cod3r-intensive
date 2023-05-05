@@ -38,7 +38,7 @@ export default function ImagemAleatoria() {
         alt="Imagem"
         className="rounded-md"/>
       <div className="flex justify-between gap-5">
-        {renderizarButton("mountain")}
+        {renderizarButton("garden")}
         {renderizarButton("hill")}
         {renderizarButton("animal")}
       </div>
