@@ -3,7 +3,7 @@ import { useState } from "react"
 
 export default function ImagemAleatoria() {
   const [pesquisa, alterarPesquisa] = useState<string>('abstract')
-  const [tamanho, alterarTamanho] = useState<number>(300)
+  const [tamanho, alterarTamanho] = useState<number>(500)
   // let pesquisa: string = ""
   const url = "https:source.unsplash.com/featured/"
 
@@ -38,9 +38,9 @@ export default function ImagemAleatoria() {
         alt="Imagem"
         className="rounded-md"/>
       <div className="flex justify-between gap-5">
-        {renderizarButton("abstract")}
-        {renderizarButton("city")}
-        {renderizarButton("person")}
+        {renderizarButton("garden")}
+        {renderizarButton("hill")}
+        {renderizarButton("animal")}
       </div>
       <div>
         <input 
